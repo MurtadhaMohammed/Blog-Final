@@ -1,0 +1,28 @@
+@media screen and (max-width: 1067px){
+ .container{
+   margin: 0px 30px;
+ }
+}
+@media screen and (max-width: 800px){
+    .blog-list{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+     }
+}
+@media screen and (max-width: 550px){
+    .blog-list{
+        grid-template-columns: repeat(1, 1fr);
+     }
+}
+@media screen and (max-width: 450px){
+    .home-cover .overlay h1{
+        font-size: 36px;
+    }
+    .home-cover .overlay p{
+        font-size: 20px;
+    }
+
+    .home-cover{
+        height: 400px;
+    }
+}
